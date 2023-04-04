@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+p{
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 0 0 20px 20px;
+}
+.namesite {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20pt;
+}
+ul {
+  list-style: none;
+  height: 50px;
+  margin: 0;
+  border-top: 1px solid rgb(128, 128, 128);
+  padding-top: 10px;
+  margin-top: 10px;
+  padding: 0;
+}
+
+ul li  {
+  width: 100px;
+  float: left;
+  padding: 0 50px;
+}
+
+.main {
+  width: 100%;
+  padding-top: 50px;
+  float: left;
+}
+
+.text {
+ width:  100%; 
+}
+
+.right {
+  float:  right;
+}
+
+.left {
+  float: left;
+}
+
+.center {
+  margin: 0 auto;
+}
+a{
+  color:rgb(255,255,255);
+  text-decoration: none;
+}
+a:visited{
+  color:rgb(255,255,255);
+  text-decoration: none;
+}
+a:hover{
+  font-style: italic;
+  color:rgb(0, 250, 154);
+  font-size: 14pt;
+}
+.text_left {
+  float: right;
+  width: 47%;
+  font-size: 14pt;
+}
+.img_left {
+  float: left ;
+  width: 47%;
+}
+footer {
+  background-color: black;
+  width: 100%;
+  float: left;
+  border-radius:20px 20px 0 0;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  height: 35px;
+  margin-top: 50px;
+  padding-top: 15px;
+}
+
+.mainDiv {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.img {
+  border-radius: 20px;
+  width: 100%;
+}
